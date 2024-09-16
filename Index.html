@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Horarios de cursadas para Analista en Sistemas de Información - Primer Año. Información sobre materias y profesores.">
+    <title>Analista en Sistemas de Información - Horarios de Cursadas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #0e9e1a; /* Verde elegido */
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+            color: #7ccf5a; /* Verde más claro para el hover */
+        }
+
+        /* Estilo del subtítulo */
+        h1, h2, h3 {
+            text-align: center;
+            color: #0e9e1a; /* Verde elegido */
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            margin: 10px 0;
+        }
+
+        /* Estilos de la tabla */
+        table {
+            margin: 30px auto;
+            width: 90%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        th {
+            background-color: #0e9e1a; /* Verde elegido */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0e9e1a; /* Verde elegido */
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        /* Información adicional en el pie de página */
+        .footer-info {
+            font-size: 0.9em;
+            color: #e0e0e0; /* Gris claro para el texto adicional */
+            margin-top: 10px;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 0.9em;
+            }
+
+            header img {
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoGqV-vQ2NHCQZ2n6lUTUuYxaC9uXzLO3rXQ&s" alt="Logo de la Universidad Nacional de Misiones">
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Contacto</a>
+        <a href="#">Ayuda</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Analista en Sistemas de Información - Primer Año</h1>
+    <h2>Nombre del alumno: Jorge Alberto Jost</h2>
+    <h3>Modalidad Virtual - Estado del alumno: Vigente</h3>
+
+    <!-- Cronograma de Horarios -->
+    <h3>Cronograma de Horarios</h3>
+    <table>
+        <tr>
+            <th>Día</th>
+            <th>Horario</th>
+            <th>Materia</th>
+            <th>Profesor</th>
+        </tr>
+        <tr>
+            <td>Lunes</td>
+            <td>11:00 AM - 2:00 PM</td>
+            <td>Algoritmo y estructura de datos 1</td>
+            <td>Ing. Laura González</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td>9:00 AM - 12:00 PM</td>
+            <td>Arquitectura de Computadoras</td>
+            <td>Lic. Pablo Torres</td>
+        </tr>
+        <tr>
+            <td>Miércoles</td>
+            <td>11:00 AM - 3:00 PM</td>
+            <td>Estadistica 1</td>
+            <td>Ing. Silvia Pérez</td>
+        </tr>
+        <tr>
+            <td>Jueves</td>
+            <td>9:00 AM - 12:00 PM</td>
+            <td>Ingles</td>
+            <td>Mtro. Juan Ramírez</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>11:00 AM - 2:00 PM</td>
+            <td>Matematica 2</td>
+            <td>Lic. Marcos Álvarez</td>
+        </tr>
+    </table>
+</main>
+
+<!-- Footer -->
+<footer>
+    Universidad Nacional de Misiones - Carrera de Sistemas de Información
+    <div class="footer-info">
+        © 2023 Facultad de Ciencias Exactas, Químicas y Naturales. Félix de Azara 1552.<br>
+        Tel: (+54) 0376-4435099 / Fax: (+54) 0376-4425414 - CPA: N3300LQH
+    </div>
+</footer>
+
+</body>
+</html>
